@@ -5,7 +5,7 @@ Provide information about Application Windows running and activate and Applicati
 
 **Important:** This package does not work on Windows or Linux
 
-## Instalation
+## Installation
 
 To install mac-windows in your project add it using NPM
 ```javascript
@@ -13,13 +13,13 @@ npm install --save mac-windows
 ```
 
 After that you can import the various functions as follows:
-```js
+```javascript
 import { getWindows, activateWindow } from 'mac-windows';
 ```
 
 or 
 
-```js
+```javascript
 const getWindows = require('mac-windows').getWindows
 ```
 
@@ -82,7 +82,7 @@ Activate the Application whose `ownerName` matches the given `windowName`.
 
 Activating an Application will cause the Application's main window to come to the front of the screen. 
 
-```js
+```javascript
 import { activateWindow } from 'mac-windows';
 
 activateWindow('Finder');
